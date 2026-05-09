@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Read(/root/vault/**)",
+      "Write(/root/vault/**)",
+      "Edit(/root/vault/**)",
+      "Glob(/root/vault/**)",
+      "Grep(/root/vault/**)",
+      "WebSearch",
+      "WebFetch",
+      "Bash(date:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(grep:*)",
+      "Bash(find /root/vault:*)",
+      "Bash(git -C /root/vault:*)"
+    ],
+    "deny": [
+      "Bash(rm -rf:*)",
+      "Bash(sudo:*)",
+      "Bash(curl * | sh)",
+      "Bash(wget * | sh)"
+    ]
+  }
+}
