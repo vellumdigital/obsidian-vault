@@ -8,6 +8,7 @@
       "Bash(/root/agente/google/gmail-thread:*)",
       "Bash(/root/agente/google/gmail:*)",
       "Bash(cal-add:*)",
+      "Bash(cal-event:*)",
       "Bash(cal-today:*)",
       "Bash(cat:*)",
       "Bash(date:*)",
