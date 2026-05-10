@@ -29,7 +29,8 @@
       "WebFetch",
       "WebSearch",
       "Write(/root/agente/email-drafts/**)",
-      "Write(/root/vault/**)"
+      "Write(/root/vault/**)",
+      "mcp__basic-memory__*"
     ],
     "deny": [
       "Bash(rm -rf:*)",

@@ -147,3 +147,18 @@ Quando o usuario manda comandos do tipo "envia 1", "envia todos", "edita 2: ..."
 6. Para "envia todos" ou "cancela todos":
    - Itera por todos os `.md` da pasta e age
 
+## Sistema de memoria — Basic Memory MCP
+
+O agente tem acesso a ferramentas de memoria estruturada via Basic Memory (servidor MCP local apontando para /root/vault).
+
+### Quando usar Basic Memory vs Read/Write/Edit puro
+
+- **write_note** — quando criar nota nova (cria com frontmatter, tags, links automaticamente)
+- **edit_note** — append/prepend/find_replace/replace_section em nota existente (mais inteligente que Edit puro)
+- **search_notes** — busca semantica + full-text (melhor que Grep para encontrar conceitos relacionados)
+- **build_context** — pega notas relacionadas a um topico (otimo antes de responder pergunta complexa)
+- **recent_activity** — ver o que mudou recentemente no vault
+
+### Regra
+Para operacoes simples de leitura ainda pode usar Read/Glob/Grep. Mas para **escrita estruturada** ou **busca semantica**, prefere Basic Memory.
+
