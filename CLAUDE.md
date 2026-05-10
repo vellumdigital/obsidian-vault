@@ -80,10 +80,19 @@ Foco principal: **Mercado Livre** e **TikTok Shop**.
 
 ## Pessoas importantes
 
-_(adicionar conforme for aparecendo — exemplo de formato:)_
+### Time Vellum
+- **Leonardo** — co-fundador da Vellum Digital
+- **Fabricio** — CTO da Vellum Digital
 
-- **Wladna** — RD Station, CSM, conduz reunioes Vellum><RD
-- _(... outros sao adicionados conforme conversa)_
+### Clientes ativos
+- **Centauro** (Grupo Margutti) — distribuidora, cliente atual em projeto de e-commerce (Mercado Livre + TikTok Shop)
+- **Tchibum** — marca de pao de forma, cliente em fase de fechamento
+  - **Erli** — dona da Tchibum
+  - **Marina** — filha da Erli (envolvida nas decisoes)
+  - Status: 1 reuniao de diagnostico + 1 de fechamento agendadas pra proxima semana
+
+### Outros contatos relevantes
+- **Wladna** — CSM da RD Station, conduz reunioes Vellum><RD
 
 ## Objetivos atuais
 

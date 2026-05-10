@@ -1,0 +1,31 @@
+---
+created: 2026-05-10
+tags: [projects, vellum, cliente, fechamento]
+type: project
+status: em-fechamento
+client: Tchibum
+---
+
+# Tchibum — Pao de Forma
+
+## Status
+**Em fechamento.** Proxima etapa: 1 reuniao de diagnostico + 1 de fechamento agendadas pra proxima semana.
+
+## Contatos
+- **Erli** — dona
+- **Marina** — filha da Erli, envolvida nas decisoes
+
+## Descricao
+Marca de pao de forma. Cliente em prospeccao avancada da Vellum.
+
+## Proximas acoes
+- [ ] Reuniao de diagnostico (proxima semana - confirmar data)
+- [ ] Reuniao de fechamento (apos diagnostico)
+- [ ] Preparar pauta do diagnostico
+- [ ] Preparar proposta de fechamento
+
+## Reunioes
+_(registrar resumos aqui)_
+
+## Notas relacionadas
+- [[Projects/Centauro/_index]]

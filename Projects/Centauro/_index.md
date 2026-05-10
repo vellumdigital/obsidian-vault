@@ -1,0 +1,25 @@
+---
+created: 2026-05-10
+tags: [projects, vellum, cliente, ecommerce]
+type: project
+status: ativo
+client: Centauro (Grupo Margutti)
+---
+
+# Centauro — Distribuidora (Grupo Margutti)
+
+## Status
+**Ativo.** Implementando sistema de e-commerce.
+
+## Foco principal
+- **Mercado Livre**
+- **TikTok Shop**
+
+## Descricao
+Distribuidora do Grupo Margutti. Projeto de gestao do sistema de e-commerce com foco em ML e TikTok Shop.
+
+## Proximas acoes
+_(adicionar conforme avanca)_
+
+## Reunioes
+_(registrar resumos aqui)_
