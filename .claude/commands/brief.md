@@ -1,45 +1,66 @@
 ---
-description: Brief matinal com agenda real (Calendar) e e-mails IMPORTANTES (Gmail filtrado)
-allowed-tools: Bash(cal-today:*), Bash(gmail-recent:*), Bash(date:*), Read, Write, Edit
+description: Brief matinal completo (agenda + e-mails importantes + rascunhos de resposta)
+allowed-tools: Bash(cal-today:*), Bash(gmail-recent:*), Bash(gmail-thread:*), Bash(gmail-send:*), Bash(date:*), Bash(ls:*), Read, Write, Edit
 ---
 
-⚠️ IMPORTANTE: Use APENAS comandos bash listados. NAO existem ferramentas MCP do Gmail/Calendar nesta sessao.
+⚠️ Use APENAS comandos bash. NAO existem ferramentas MCP nesta sessao.
 
 ## Comandos
+- `cal-today today` — agenda hoje
+- `gmail-recent 'is:important is:unread -category:promotions -category:social -category:updates -category:forums' 5` — e-mails importantes
+- `gmail-thread <thread_id>` — ler thread completa
+- `gmail-send --reply-to-thread ID --body B --dry-run` — preview de resposta
+- `ls /root/agente/email-drafts/` — listar rascunhos pendentes
 
-- `cal-today today` — eventos de hoje
-- `gmail-recent 'is:important is:unread -category:promotions -category:social -category:updates -category:forums' 5` — e-mails realmente importantes
-- `gmail-recent 'is:starred' 3` — e-mails que ele estrelou (acompanhamento)
-- `date '+%A, %d de %B de %Y'` — data PT-BR
+## Passos do brief
 
-## Passos
+1. Roda `date '+%A, %d de %B de %Y'`.
+2. Roda `cal-today today` pra agenda.
+3. Roda `gmail-recent 'is:important is:unread -category:promotions -category:social -category:updates -category:forums' 5`.
+4. Filtra mentalmente os e-mails realmente acionaveis (descarta marketing disfarcado).
+5. **Para cada e-mail acionavel que precisa de resposta**:
+   - Le o thread completo com `gmail-thread <thread_id>`
+   - Compoe um rascunho de resposta no tom apropriado
+   - Salva em `/root/agente/email-drafts/<numero-incremental>.md` no formato:
+     ```markdown
+     ---
+     thread_id: ID
+     to: destinatario
+     subject: Re: ...
+     status: pending
+     ---
 
-1. Pega a data formatada.
-2. Roda `cal-today today` para agenda.
-3. Roda `gmail-recent 'is:important is:unread -category:promotions -category:social -category:updates -category:forums' 5` para e-mails importantes.
-4. Cria/atualiza Daily/YYYY-MM-DD.md.
-5. Le tarefas do daily note.
+     [corpo do rascunho aqui]
+     ```
+6. Cria/atualiza `Daily/YYYY-MM-DD.md`.
 
-## Filtragem inteligente dos e-mails
-
-Apos ler os e-mails, filtra MENTALMENTE os que sao realmente acionaveis:
-- ✅ INCLUI: pessoas reais pedindo resposta, alertas de seguranca, avisos importantes (banco, governo), confirmacoes pendentes, prazos
-- ❌ EXCLUI mesmo se vier: newsletters automaticas, marketing disfarcado, notificacoes de redes sociais
-- Se TODOS forem ruido, escreve "Nenhum e-mail acionavel"
-
-## Formato
+## Formato da resposta (Telegram)
 
 ```
 🌅 Bom dia, Rafael!
 
 📅 *AGENDA HOJE* (data PT-BR)
-[eventos com hora ou "Nada agendado"]
+[eventos]
 
 📧 *E-MAILS IMPORTANTES*
-[2-5 acionaveis com remetente + assunto + 1 linha do que pede, ou "Nenhum e-mail acionavel"]
+[lista 1 linha cada]
+
+✍️ *RASCUNHOS DE RESPOSTA PRONTOS*
+1. Para X (sobre Y):
+   _"primeiro paragrafo do rascunho..."_
+
+2. Para Z (sobre W):
+   _"primeiro paragrafo..."_
+
+Pra enviar:
+- 'envia 1' / 'envia todos' / 'envia 1 e 3'
+- 'edita 2: muda Z pra W' (eu refaco e mostro)
+- 'cancela 1' / 'cancela todos'
 
 ✅ *TAREFAS*
-[tarefas do daily note ou "Nenhuma registrada"]
+[do daily note]
 
-💡 _[lembrete contextual em 1 linha]_
+💡 _[lembrete contextual]_
 ```
+
+Se nao houver e-mails acionaveis, omitir secao de rascunhos.

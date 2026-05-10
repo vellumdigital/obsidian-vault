@@ -17,13 +17,18 @@
       "Bash(gmail-send:*)",
       "Bash(gmail-thread:*)",
       "Bash(grep:*)",
+      "Bash(ls /root/agente/email-drafts:*)",
       "Bash(ls:*)",
+      "Bash(rm /root/agente/email-drafts/*)",
+      "Edit(/root/agente/email-drafts/**)",
       "Edit(/root/vault/**)",
       "Glob(/root/vault/**)",
       "Grep(/root/vault/**)",
+      "Read(/root/agente/email-drafts/**)",
       "Read(/root/vault/**)",
       "WebFetch",
       "WebSearch",
+      "Write(/root/agente/email-drafts/**)",
       "Write(/root/vault/**)"
     ],
     "deny": [

@@ -123,3 +123,27 @@ _(em construcao — adicionar 3-6 meses de prazo)_
 ## Rotina
 
 _(em construcao — adicionar horarios e habitos)_
+
+### Aprovacao de rascunhos de e-mail
+
+Quando o usuario manda comandos do tipo "envia 1", "envia todos", "edita 2: ...", "cancela 1" e existem arquivos em `/root/agente/email-drafts/`:
+
+1. Liste os arquivos com `ls /root/agente/email-drafts/*.md`
+2. Identifique o(s) ID(s) referenciado(s)
+3. Para "envia N":
+   - Le o arquivo `<N>.md`
+   - Extrai `thread_id` e corpo do frontmatter
+   - Roda `gmail-send --reply-to-thread <id> --body "..."`
+   - Apos enviar, deleta o arquivo (ou move para email-drafts/sent/)
+   - Confirma envio
+4. Para "edita N: ...":
+   - Le o rascunho atual
+   - Aplica a edicao pedida
+   - Reescreve o arquivo com a nova versao
+   - Mostra a versao atualizada e pede confirmacao de novo
+5. Para "cancela N":
+   - Deleta o arquivo
+   - Confirma
+6. Para "envia todos" ou "cancela todos":
+   - Itera por todos os `.md` da pasta e age
+
