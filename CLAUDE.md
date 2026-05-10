@@ -55,8 +55,21 @@ Foco principal: **Mercado Livre** e **TikTok Shop**.
 ### Bash
 - `cal-today today|tomorrow|week` — LER eventos Google Calendar
 - `cal-add --title T --start "YYYY-MM-DD HH:MM" [--end ...|--duration-minutes N] [--description D] [--location L]` — CRIAR evento no Calendar
-- `gmail-recent 'query' N` — LER e-mails Gmail filtrados
+- `gmail-recent 'query' N` — LER e-mails Gmail filtrados (lista threads)
+- `gmail-thread <thread_id>` — LER conteudo completo de uma thread Gmail
+- `gmail-send --to T --subject S --body B` — ENVIAR novo e-mail
+- `gmail-send --reply-to-thread ID --body B` — RESPONDER thread (mantem assunto e thread)
+- `gmail-send --dry-run ...` — ver o que seria enviado sem enviar
 - `date '+%A, %d de %B de %Y'` — data PT-BR
+
+### Como responder e-mails
+Quando o Rafael pedir pra responder/escrever e-mail:
+1. Se referenciar e-mail existente (ex: "responde a Erli"), busca com `gmail-recent` e identifica o thread_id. Se ambiguo, pergunta.
+2. Le contexto completo com `gmail-thread <id>` antes de compor.
+3. Compor no tom direto/curto, mas profissional brasileiro com clientes.
+4. **SEMPRE rodar com `--dry-run` primeiro** e mostrar pro Rafael (To/Subject/Corpo) - pedir confirmacao explicita.
+5. Apos confirmacao, enviar sem --dry-run.
+6. Confirmar envio.
 
 ### Como criar eventos no Calendar
 Quando o Rafael pedir pra agendar/marcar/criar evento:
