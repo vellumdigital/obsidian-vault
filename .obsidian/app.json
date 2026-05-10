@@ -1,6 +1,6 @@
 {
+  "showLineNumber": false,
   "promptDelete": false,
-  "showLineNumber": true,
   "spellcheck": false,
   "useTab": false,
   "tabSize": 2,
@@ -9,5 +9,6 @@
   "attachmentFolderPath": "Resources/_attachments",
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": false,
-  "trashOption": "system"
+  "trashOption": "system",
+  "defaultViewMode": "preview"
 }

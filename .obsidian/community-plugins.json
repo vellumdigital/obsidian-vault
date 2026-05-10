@@ -4,5 +4,8 @@
   "dataview",
   "calendar",
   "periodic-notes",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "quickadd",
+  "editing-toolbar",
+  "obsidian-icon-folder"
 ]

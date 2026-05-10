@@ -1,8 +1,9 @@
 {
   "theme": "obsidian",
+  "cssTheme": "Minimal",
   "baseFontSize": 16,
-  "interfaceFontFamily": "",
-  "textFontFamily": "",
-  "monospaceFontFamily": "",
-  "translucency": false
+  "translucency": false,
+  "showInlineTitle": true,
+  "showViewHeader": false,
+  "nativeMenus": false
 }

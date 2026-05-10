@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "703de7301c1a383d",
+        "id": "123a7db5ebec1177",
         "type": "tabs",
         "children": [
           {
-            "id": "16cdb84d78991741",
+            "id": "012279f397ae325a",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -180,18 +180,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "16cdb84d78991741",
+  "active": "012279f397ae325a",
   "lastOpenFiles": [
+    "Inbox/basic-memory-funcionando.md",
+    "Sem título 2.canvas",
+    "Daily/2026-05-09.md",
     "2026-05-10.md",
+    "CLAUDE.md",
+    "Sem título 1.canvas",
+    "Sem título.canvas",
+    "Templates/Projeto.md",
+    "Home.md",
     "Projects/Tchibum/_index.md",
     "Resources/Reviews/2026-05-10-weekly.md",
     "Resources/Reviews",
     "Projects/Tchibum",
     "Projects/Centauro/_index.md",
     "Projects/Centauro",
-    "Inbox/basic-memory-funcionando.md",
-    "Daily/2026-05-10.md",
-    "Daily/2026-05-09.md",
-    "CLAUDE.md"
+    "Daily/2026-05-10.md"
   ]
 }
