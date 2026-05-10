@@ -1,0 +1,16 @@
+{
+  "globalQuery": "",
+  "globalFilter": "",
+  "removeGlobalFilterOnComplete": false,
+  "taskFormat": "tasksPluginEmoji",
+  "useFilenameAsScheduledDate": false,
+  "filenameAsDateFolders": [],
+  "recurrenceOnNextLine": false,
+  "autoSuggestInEditor": true,
+  "autoSuggestMinMatch": 0,
+  "autoSuggestMaxItems": 6,
+  "provideAccessKeys": true,
+  "setCreatedDate": true,
+  "setDoneDate": true,
+  "setCancelledDate": true
+}

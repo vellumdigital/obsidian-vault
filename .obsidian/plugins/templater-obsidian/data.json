@@ -1,0 +1,18 @@
+{
+  "templates_folder": "Templates",
+  "templates_pairs": [],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {"folder": "Daily", "template": "Templates/Daily.md"},
+    {"folder": "Projects", "template": "Templates/Projeto.md"}
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [""],
+  "startup_templates": [""]
+}

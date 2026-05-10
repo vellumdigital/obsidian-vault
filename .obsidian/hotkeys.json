@@ -1,0 +1,9 @@
+{
+  "obsidian-tasks-plugin:edit-task": [{"modifiers": ["Mod"], "key": "T"}],
+  "command-palette:open": [{"modifiers": ["Mod"], "key": "P"}],
+  "switcher:open": [{"modifiers": ["Mod"], "key": "O"}],
+  "obsidian-git:push": [{"modifiers": ["Mod","Shift"], "key": "P"}],
+  "obsidian-git:pull": [{"modifiers": ["Mod","Shift"], "key": "L"}],
+  "templater-obsidian:insert-templater": [{"modifiers": ["Mod","Shift"], "key": "T"}],
+  "daily-notes": [{"modifiers": ["Mod","Shift"], "key": "D"}]
+}

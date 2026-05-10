@@ -11,10 +11,14 @@
             "id": "a5181aa49e369ab3",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "2026-05-10.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-05-10"
             }
           }
         ]
@@ -167,6 +171,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "publish:Publicar mudanças": false,
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today's daily note": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
       "canvas:Criar novo canvas": false,
@@ -179,16 +186,16 @@
   },
   "active": "a5181aa49e369ab3",
   "lastOpenFiles": [
+    "2026-05-10.md",
+    "Projects/Tchibum/_index.md",
     "Resources/Reviews/2026-05-10-weekly.md",
     "Resources/Reviews",
-    "Projects/Tchibum/_index.md",
     "Projects/Tchibum",
     "Projects/Centauro/_index.md",
     "Projects/Centauro",
     "Inbox/basic-memory-funcionando.md",
     "Daily/2026-05-10.md",
     "Daily/2026-05-09.md",
-    "CLAUDE.md",
-    "2026-05-10.md"
+    "CLAUDE.md"
   ]
 }

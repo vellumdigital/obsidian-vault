@@ -1,1 +1,13 @@
-{}
+{
+  "promptDelete": false,
+  "showLineNumber": true,
+  "spellcheck": false,
+  "useTab": false,
+  "tabSize": 2,
+  "showFrontmatter": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "Resources/_attachments",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": false,
+  "trashOption": "system"
+}

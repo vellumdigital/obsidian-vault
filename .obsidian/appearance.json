@@ -1,1 +1,8 @@
-{}
+{
+  "theme": "obsidian",
+  "baseFontSize": 16,
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "monospaceFontFamily": "",
+  "translucency": false
+}

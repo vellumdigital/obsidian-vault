@@ -1,0 +1,72 @@
+{
+  "installedVersion": "1.0.0-beta1",
+  "activeCalendarSet": "Default",
+  "showGettingStartedBanner": false,
+  "hasMigratedDailyNoteSettings": true,
+  "hasMigratedWeeklyNoteSettings": true,
+  "calendarSets": [
+    {
+      "day": {
+        "enabled": true,
+        "format": "YYYY-MM-DD",
+        "folder": "Daily",
+        "openAtStartup": false,
+        "templatePath": "Templates/Daily.md"
+      },
+      "week": {
+        "enabled": false,
+        "format": "YYYY-[W]ww",
+        "folder": "Resources/Reviews",
+        "openAtStartup": false,
+        "templatePath": ""
+      },
+      "month": {
+        "enabled": false,
+        "format": "",
+        "folder": "",
+        "openAtStartup": false
+      },
+      "quarter": {
+        "enabled": false,
+        "format": "",
+        "folder": "",
+        "openAtStartup": false
+      },
+      "year": {
+        "enabled": false,
+        "format": "",
+        "folder": "",
+        "openAtStartup": false
+      },
+      "id": "Default",
+      "ctime": "2026-05-10T17:28:18-03:00"
+    }
+  ],
+  "enableTimelineComplication": true,
+  "daily": {
+    "available": true,
+    "format": "YYYY-MM-DD",
+    "template": "Templates/Daily.md",
+    "folder": "Daily",
+    "enabled": true
+  },
+  "weekly": {
+    "available": true,
+    "format": "YYYY-[W]ww",
+    "template": "",
+    "folder": "Resources/Reviews",
+    "enabled": false
+  },
+  "monthly": {
+    "available": true,
+    "enabled": false
+  },
+  "quarterly": {
+    "available": true,
+    "enabled": false
+  },
+  "yearly": {
+    "available": true,
+    "enabled": false
+  }
+}
