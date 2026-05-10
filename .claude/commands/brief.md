@@ -1,26 +1,31 @@
 ---
-description: Gera brief matinal com agenda, tarefas prioritarias e e-mails importantes
+description: Brief matinal com agenda real (Google Calendar) e e-mails nao lidos (Gmail)
 ---
 
-Gera um brief matinal para o Rafael. Use o subagent productivity-manager.
+Gera o brief matinal do Rafael usando dados reais.
 
 Passos:
-1. Pegar a data de hoje (timezone America/Sao_Paulo)
-2. Verificar se ja existe `Daily/YYYY-MM-DD.md` — se nao, criar usando o template
-3. Listar agenda do dia (quando integracao Calendar estiver disponivel; por enquanto, ler da daily note)
-4. Listar tarefas marcadas com prioridade alta no vault (buscar por `#priority/high` ou similar)
-5. Listar e-mails importantes (quando integracao Gmail estiver disponivel; por enquanto pular)
-6. Apresentar no formato:
+1. Pega data de hoje em PT-BR (timezone Sao Paulo).
+2. Roda `cal-today today` para listar eventos de hoje.
+3. Roda `gmail-recent 'in:inbox is:unread' 5` para listar 5 e-mails nao lidos.
+4. Le `Daily/YYYY-MM-DD.md` se existir, pra pegar tarefas registradas.
+5. Cria/atualiza `Daily/YYYY-MM-DD.md` com o template diario se nao existir.
+6. Monta resposta no formato:
 
 ```
 🌅 Bom dia, Rafael!
 
-📅 AGENDA HOJE
-[lista]
+📅 *AGENDA HOJE* (data extenso PT-BR)
+[lista de eventos com horarios, ou "Nada agendado"]
 
-✅ TAREFAS PRIORITARIAS
-[lista]
+📧 *E-MAILS NAO LIDOS* (X total)
+[ate 5 mais recentes - so remetente + assunto, 1 linha cada]
+[Se >5, mencionar "...e mais N"]
 
-💡 LEMBRETES
-[mensagens motivacionais ou lembretes registrados]
+✅ *TAREFAS*
+[tarefas do daily note ou "Nenhuma tarefa registrada - me manda no Telegram que eu adiciono"]
+
+💡 _[lembrete contextual: tom motivacional, considerar dia da semana, clima do dia, etc]_
 ```
+
+Use o subagent productivity-manager.

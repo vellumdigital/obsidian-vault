@@ -2,19 +2,23 @@
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
   "permissions": {
     "allow": [
-      "Read(/root/vault/**)",
-      "Write(/root/vault/**)",
+      "Bash(/root/agente/google/cal:*)",
+      "Bash(/root/agente/google/gmail:*)",
+      "Bash(cal-today:*)",
+      "Bash(cat:*)",
+      "Bash(date:*)",
+      "Bash(find /root/vault:*)",
+      "Bash(git -C /root/vault:*)",
+      "Bash(gmail-recent:*)",
+      "Bash(grep:*)",
+      "Bash(ls:*)",
       "Edit(/root/vault/**)",
       "Glob(/root/vault/**)",
       "Grep(/root/vault/**)",
-      "WebSearch",
+      "Read(/root/vault/**)",
       "WebFetch",
-      "Bash(date:*)",
-      "Bash(ls:*)",
-      "Bash(cat:*)",
-      "Bash(grep:*)",
-      "Bash(find /root/vault:*)",
-      "Bash(git -C /root/vault:*)"
+      "WebSearch",
+      "Write(/root/vault/**)"
     ],
     "deny": [
       "Bash(rm -rf:*)",
