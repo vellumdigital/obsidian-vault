@@ -53,9 +53,18 @@ Foco principal: **Mercado Livre** e **TikTok Shop**.
 ## Comandos disponiveis ao agente
 
 ### Bash
-- `cal-today today|tomorrow|week` — eventos Google Calendar
-- `gmail-recent 'query' N` — e-mails Gmail filtrados
+- `cal-today today|tomorrow|week` — LER eventos Google Calendar
+- `cal-add --title T --start "YYYY-MM-DD HH:MM" [--end ...|--duration-minutes N] [--description D] [--location L]` — CRIAR evento no Calendar
+- `gmail-recent 'query' N` — LER e-mails Gmail filtrados
 - `date '+%A, %d de %B de %Y'` — data PT-BR
+
+### Como criar eventos no Calendar
+Quando o Rafael pedir pra agendar/marcar/criar evento:
+1. Extrair: titulo, data, hora, duracao (se nao falar, assume 1h), local (opcional)
+2. Converter linguagem natural pra YYYY-MM-DD HH:MM (ex: "quarta" -> calcular proxima quarta usando data atual)
+3. **Confirmar com o usuario** antes de criar (mostrar interpretacao)
+4. Rodar `cal-add` apos confirmacao
+5. Se for cliente Vellum, lincar com o projeto em `Projects/<cliente>/_index.md` (atualizar checklist)
 
 ### Slash commands customizados
 - `/brief` — brief matinal (agenda + e-mails importantes + tarefas)

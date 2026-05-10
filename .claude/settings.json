@@ -2,8 +2,10 @@
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
   "permissions": {
     "allow": [
+      "Bash(/root/agente/google/cal-add:*)",
       "Bash(/root/agente/google/cal:*)",
       "Bash(/root/agente/google/gmail:*)",
+      "Bash(cal-add:*)",
       "Bash(cal-today:*)",
       "Bash(cat:*)",
       "Bash(date:*)",
