@@ -1,0 +1,10 @@
+{
+  "items": [
+    {"type": "file", "ctime": 1778450000000, "path": "Home.md", "title": "🏠 Home"},
+    {"type": "file", "ctime": 1778450000000, "path": "CLAUDE.md", "title": "🧠 CLAUDE"},
+    {"type": "folder", "ctime": 1778450000000, "path": "Daily", "title": "📅 Daily"},
+    {"type": "folder", "ctime": 1778450000000, "path": "Projects", "title": "🚀 Projects"},
+    {"type": "folder", "ctime": 1778450000000, "path": "Inbox", "title": "📥 Inbox"},
+    {"type": "folder", "ctime": 1778450000000, "path": "Resources/Reviews", "title": "📊 Reviews"}
+  ]
+}

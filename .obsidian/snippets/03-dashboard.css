@@ -1,0 +1,14 @@
+/* Estilo do dashboard Home */
+.dashboard h2 {
+  border-bottom: 2px solid var(--interactive-accent);
+  padding-bottom: 4px;
+  margin-top: 24px;
+}
+.dashboard table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+/* Status visual em projetos */
+.dashboard table tbody tr td:nth-child(2) {
+  font-weight: 600;
+}

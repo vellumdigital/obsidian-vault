@@ -1,0 +1,9 @@
+/* Tags coloridas por tipo */
+a.tag[href="#urgente"], .cm-tag-urgente { background: var(--color-red) !important; color: white !important; }
+a.tag[href="#cliente"], .cm-tag-cliente { background: var(--color-purple) !important; color: white !important; }
+a.tag[href="#vellum"], .cm-tag-vellum { background: var(--color-orange) !important; color: white !important; }
+a.tag[href="#ideia"], .cm-tag-ideia { background: var(--color-cyan) !important; color: white !important; }
+a.tag[href="#projects"], .cm-tag-projects { background: var(--color-green) !important; color: white !important; }
+a.tag[href="#daily"], .cm-tag-daily { background: var(--color-blue) !important; color: white !important; }
+a.tag[href="#review"], .cm-tag-review { background: var(--color-yellow) !important; color: black !important; }
+a.tag[href="#archive"], .cm-tag-archive { background: var(--color-base-50) !important; color: white !important; }

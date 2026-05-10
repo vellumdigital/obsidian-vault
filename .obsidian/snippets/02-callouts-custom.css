@@ -1,0 +1,21 @@
+/* Callouts customizados pra Vellum */
+.callout[data-callout="cliente"] {
+  --callout-color: 138, 43, 226;
+  --callout-icon: lucide-briefcase;
+}
+.callout[data-callout="reuniao"] {
+  --callout-color: 30, 144, 255;
+  --callout-icon: lucide-users;
+}
+.callout[data-callout="acao"] {
+  --callout-color: 220, 53, 69;
+  --callout-icon: lucide-zap;
+}
+.callout[data-callout="ideia"] {
+  --callout-color: 255, 193, 7;
+  --callout-icon: lucide-lightbulb;
+}
+.callout[data-callout="vellum"] {
+  --callout-color: 255, 87, 34;
+  --callout-icon: lucide-rocket;
+}

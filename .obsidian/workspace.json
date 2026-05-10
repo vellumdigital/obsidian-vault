@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "123a7db5ebec1177",
+        "id": "3abafc1cb3095487",
         "type": "tabs",
         "children": [
           {
-            "id": "012279f397ae325a",
+            "id": "d97aba58f10ecd52",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -157,16 +157,31 @@
               "icon": "lucide-list",
               "title": "Sumário"
             }
+          },
+          {
+            "id": "167368a25a9ae933",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Toggle Footer Connections": false,
+      "smart-connections:Smart Connections: Open random connection": false,
+      "smart-connections:Smart Lookup: Open lookup view": false,
       "publish:Publicar mudanças": false,
       "templater-obsidian:Templater": false,
       "periodic-notes:Open today's daily note": false,
@@ -180,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e92808c5df020f9",
+  "active": "167368a25a9ae933",
   "lastOpenFiles": [
     "Sem título 1.canvas",
     "Sem título.canvas",

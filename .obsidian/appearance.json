@@ -3,7 +3,12 @@
   "cssTheme": "Minimal",
   "baseFontSize": 16,
   "translucency": false,
-  "showInlineTitle": true,
   "showViewHeader": false,
-  "nativeMenus": false
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "01-tags-coloridas",
+    "02-callouts-custom",
+    "03-dashboard",
+    "04-better-headers"
+  ]
 }

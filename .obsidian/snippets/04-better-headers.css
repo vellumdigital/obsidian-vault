@@ -1,0 +1,14 @@
+/* Headers com melhor hierarquia visual */
+.markdown-source-view.mod-cm6 .HyperMD-header-1,
+.markdown-preview-view h1 {
+  font-size: 2em;
+  font-weight: 700;
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding-bottom: 8px;
+}
+.markdown-source-view.mod-cm6 .HyperMD-header-2,
+.markdown-preview-view h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-top: 32px;
+}

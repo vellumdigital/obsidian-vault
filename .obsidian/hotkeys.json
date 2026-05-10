@@ -5,5 +5,9 @@
   "obsidian-git:push": [{"modifiers": ["Mod","Shift"], "key": "P"}],
   "obsidian-git:pull": [{"modifiers": ["Mod","Shift"], "key": "L"}],
   "templater-obsidian:insert-templater": [{"modifiers": ["Mod","Shift"], "key": "T"}],
-  "daily-notes": [{"modifiers": ["Mod","Shift"], "key": "D"}]
+  "daily-notes": [{"modifiers": ["Mod","Shift"], "key": "D"}],
+  "quickadd:choice:capture-inbox": [{"modifiers": ["Mod","Shift"], "key": "I"}],
+  "quickadd:choice:new-client": [{"modifiers": ["Mod","Shift"], "key": "C"}],
+  "quickadd:choice:new-idea": [{"modifiers": ["Mod","Shift"], "key": "Y"}],
+  "quickadd:choice:new-meeting": [{"modifiers": ["Mod","Shift"], "key": "M"}]
 }
