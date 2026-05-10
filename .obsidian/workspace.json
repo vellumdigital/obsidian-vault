@@ -11,10 +11,10 @@
             "id": "012279f397ae325a",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "icon": "lucide-file",
+              "title": "Nova aba"
             }
           }
         ]
@@ -180,23 +180,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "012279f397ae325a",
+  "active": "9e92808c5df020f9",
   "lastOpenFiles": [
+    "Sem título 1.canvas",
+    "Sem título.canvas",
+    "CLAUDE.md",
+    "Projects/Centauro/_index.md",
+    "2026-05-10.md",
+    "Daily/2026-05-10.md",
+    "Home.md",
     "Inbox/basic-memory-funcionando.md",
     "Sem título 2.canvas",
     "Daily/2026-05-09.md",
-    "2026-05-10.md",
-    "CLAUDE.md",
-    "Sem título 1.canvas",
-    "Sem título.canvas",
     "Templates/Projeto.md",
-    "Home.md",
     "Projects/Tchibum/_index.md",
     "Resources/Reviews/2026-05-10-weekly.md",
     "Resources/Reviews",
     "Projects/Tchibum",
-    "Projects/Centauro/_index.md",
-    "Projects/Centauro",
-    "Daily/2026-05-10.md"
+    "Projects/Centauro"
   ]
 }
