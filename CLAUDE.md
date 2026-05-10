@@ -120,7 +120,7 @@ Quando o Rafael pedir pra agendar/marcar/criar evento:
   - Status: 1 reuniao de diagnostico + 1 de fechamento agendadas pra proxima semana
 
 ### Outros contatos relevantes
-- **Wladna** — CSM da RD Station, conduz reunioes Vellum><RD
+_(adicionar conforme aparecer)_
 
 ## Objetivos atuais
 
@@ -167,3 +167,8 @@ O agente tem acesso a ferramentas de memoria estruturada via Basic Memory (servi
 
 ### Regra
 Para operacoes simples de leitura ainda pode usar Read/Glob/Grep. Mas para **escrita estruturada** ou **busca semantica**, prefere Basic Memory.
+
+## ⚠️ Contextos arquivados (ignorar)
+
+- **RD Station** — descontinuado em 10/05/2026. Nao gerar briefings, rascunhos ou lembretes sobre RD/Wladna. Veja `Archive/rd-station-cancelado.md`.
+
