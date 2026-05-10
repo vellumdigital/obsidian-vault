@@ -1,3 +1,9 @@
+---
+title: CLAUDE
+type: note
+permalink: main/claude
+---
+
 # Super Agente Pessoal — Rafael Margutti
 
 ## Sobre o Rafael
@@ -161,4 +167,3 @@ O agente tem acesso a ferramentas de memoria estruturada via Basic Memory (servi
 
 ### Regra
 Para operacoes simples de leitura ainda pode usar Read/Glob/Grep. Mas para **escrita estruturada** ou **busca semantica**, prefere Basic Memory.
-
