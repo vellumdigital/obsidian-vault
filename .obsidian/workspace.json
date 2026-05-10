@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2891fd90d77f90e5",
+        "id": "3b459ab4640c5a91",
         "type": "tabs",
         "children": [
           {
-            "id": "1d67ea11988fc17b",
+            "id": "a5181aa49e369ab3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-05-10.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-05-10"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
             }
           }
         ]
@@ -181,9 +177,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1d67ea11988fc17b",
+  "active": "a5181aa49e369ab3",
   "lastOpenFiles": [
-    "2026-05-10.md",
-    "CLAUDE.md"
+    "Daily/2026-05-09.md",
+    "CLAUDE.md",
+    "2026-05-10.md"
   ]
 }
