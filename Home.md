@@ -1,8 +1,12 @@
 ---
 created: 2026-05-10
-tags: [dashboard, home]
+tags:
+- dashboard
+- home
 type: dashboard
-cssclasses: [dashboard]
+cssclasses:
+- dashboard
+permalink: main/home
 ---
 
 # 🏠 Home — Rafael Margutti

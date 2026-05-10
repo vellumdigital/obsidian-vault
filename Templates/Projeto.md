@@ -1,8 +1,10 @@
 ---
 created: <% tp.date.now("YYYY-MM-DD") %>
-tags: [projects]
+tags:
+- projects
 type: project
 status: ativo
+permalink: main/templates/projeto
 ---
 
 # <% tp.file.title %>

@@ -1,9 +1,12 @@
 ---
 created: <% tp.date.now("YYYY-MM-DD") %>
-tags: [estudo, resources]
+tags:
+- estudo
+- resources
 type: study
-topic:
-source:
+topic: null
+source: null
+permalink: main/templates/estudo
 ---
 
 # <% tp.file.title %>

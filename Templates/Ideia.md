@@ -1,8 +1,11 @@
 ---
 created: <% tp.date.now("YYYY-MM-DD HH:mm") %>
-tags: [ideia, inbox]
+tags:
+- ideia
+- inbox
 type: idea
 status: bruta
+permalink: main/templates/ideia
 ---
 
 # <% tp.file.title %>

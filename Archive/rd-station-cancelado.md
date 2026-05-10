@@ -1,7 +1,11 @@
 ---
 created: 2026-05-10
-tags: [archive, rd-station, cancelado]
+tags:
+- archive
+- rd-station
+- cancelado
 type: archive-note
+permalink: main/archive/rd-station-cancelado
 ---
 
 # RD Station — Cancelado / Descontinuado

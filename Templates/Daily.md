@@ -1,7 +1,9 @@
 ---
 created: <% tp.date.now("YYYY-MM-DD") %>
-tags: [daily]
+tags:
+- daily
 type: daily
+permalink: main/templates/daily
 ---
 
 # <% tp.date.now("dddd, DD [de] MMMM [de] YYYY", 0, tp.file.title, "YYYY-MM-DD") %>
@@ -19,4 +21,4 @@ type: daily
 - 
 
 ## ➡️ Para amanhã
-- 
+-

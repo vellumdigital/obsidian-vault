@@ -1,11 +1,14 @@
 ---
 created: <% tp.date.now("YYYY-MM-DD") %>
-tags: [projects, cliente]
+tags:
+- projects
+- cliente
 type: project
 status: prospeccao
-client:
-contato_principal:
-deal_size:
+client: null
+contato_principal: null
+deal_size: null
+permalink: main/templates/cliente
 ---
 
 # <% tp.file.title %>
