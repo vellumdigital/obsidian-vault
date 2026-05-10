@@ -4,6 +4,8 @@
     "allow": [
       "Bash(/root/agente/google/cal-add:*)",
       "Bash(/root/agente/google/cal:*)",
+      "Bash(/root/agente/google/gmail-send:*)",
+      "Bash(/root/agente/google/gmail-thread:*)",
       "Bash(/root/agente/google/gmail:*)",
       "Bash(cal-add:*)",
       "Bash(cal-today:*)",
@@ -12,6 +14,8 @@
       "Bash(find /root/vault:*)",
       "Bash(git -C /root/vault:*)",
       "Bash(gmail-recent:*)",
+      "Bash(gmail-send:*)",
+      "Bash(gmail-thread:*)",
       "Bash(grep:*)",
       "Bash(ls:*)",
       "Edit(/root/vault/**)",
