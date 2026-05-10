@@ -1,0 +1,19 @@
+{
+  "commitMessage": "vault: {{date}} {{hostname}}",
+  "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
+  "autoSaveInterval": 5,
+  "autoPushInterval": 5,
+  "autoPullInterval": 2,
+  "autoPullOnBoot": true,
+  "disablePush": false,
+  "pullBeforePush": true,
+  "disablePopups": true,
+  "listChangedFilesInMessageBody": false,
+  "showStatusBar": true,
+  "showBranchStatusBar": true,
+  "syncMethod": "rebase",
+  "differentIntervalCommitAndPush": true,
+  "submoduleRecurseCheckout": false,
+  "trees": {},
+  "lineAuthor": {"show": false}
+}
