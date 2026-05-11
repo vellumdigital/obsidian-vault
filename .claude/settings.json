@@ -7,6 +7,8 @@
       "Bash(/root/agente/google/gmail-send:*)",
       "Bash(/root/agente/google/gmail-thread:*)",
       "Bash(/root/agente/google/gmail:*)",
+      "Bash(asana-add-task:*)",
+      "Bash(asana-create-project:*)",
       "Bash(cal-add:*)",
       "Bash(cal-event:*)",
       "Bash(cal-today:*)",

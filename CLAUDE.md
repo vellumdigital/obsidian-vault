@@ -66,6 +66,8 @@ Foco principal: **Mercado Livre** e **TikTok Shop**.
 - `gmail-send --to T --subject S --body B` — ENVIAR novo e-mail
 - `gmail-send --reply-to-thread ID --body B` — RESPONDER thread (mantem assunto e thread)
 - `gmail-send --dry-run ...` — ver o que seria enviado sem enviar
+- `asana-create-project --name "X" [--notes Y]` — criar projeto Asana
+- `asana-add-task --project "<nome ou gid>" --name "X" [--due YYYY-MM-DD]` — criar tarefa Asana
 - `date '+%A, %d de %B de %Y'` — data PT-BR
 
 ### Como responder e-mails
@@ -76,6 +78,18 @@ Quando o Rafael pedir pra responder/escrever e-mail:
 4. **SEMPRE rodar com `--dry-run` primeiro** e mostrar pro Rafael (To/Subject/Corpo) - pedir confirmacao explicita.
 5. Apos confirmacao, enviar sem --dry-run.
 6. Confirmar envio.
+
+### Como criar projetos/tarefas no Asana
+Quando o Rafael pedir pra criar projeto Asana:
+1. Identifica o nome (ex: "cria projeto Padaria do Joao")
+2. Roda `asana-create-project --name "Padaria do Joao"`
+3. Apos criar, sincroniza com `/root/agente/asana/sync-all.sh` pra trazer a pasta pro vault
+
+Quando o Rafael pedir tarefa:
+1. Identifica projeto + nome + prazo ("cria tarefa X no projeto Centauro com prazo amanha")
+2. Converte data natural pra YYYY-MM-DD
+3. Roda `asana-add-task --project "Centauro" --name "X" --due 2026-05-12`
+4. Sync apos criar pra refletir no vault
 
 ### Como criar eventos no Calendar
 Quando o Rafael pedir pra agendar/marcar/criar evento:
