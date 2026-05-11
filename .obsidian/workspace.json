@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3abafc1cb3095487",
+        "id": "9dc0af4459e2f062",
         "type": "tabs",
         "children": [
           {
-            "id": "d97aba58f10ecd52",
+            "id": "7a59cfba235f2c43",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Nova aba"
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
             }
           }
         ]
@@ -195,8 +195,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "167368a25a9ae933",
+  "active": "9e92808c5df020f9",
   "lastOpenFiles": [
+    "Sem título.canvas",
     "Projects/Primeiro projeto de Rafael/_index.md",
     "Projects/Primeiro projeto de Rafael",
     "Projects/D2C Mercado Livre · Linha Sazón · Centauro Margutti/_index.md",
@@ -207,7 +208,6 @@
     "Projects/Octo",
     "Archive/rd-station-cancelado.md",
     "Sem título 1.canvas",
-    "Sem título.canvas",
     "CLAUDE.md",
     "Projects/Centauro/_index.md",
     "2026-05-10.md",
