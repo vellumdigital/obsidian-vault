@@ -1,14 +1,18 @@
 ---
 created: 2026-05-11
-tags: [projects, cliente, prospeccao]
+tags:
+- projects
+- cliente
+- prospeccao
 type: project
 status: prospeccao
 client: Mongoios
-contato_principal: 
+contato_principal: null
 deal_size_setup: 0
 deal_size_recorrente: 0
-fonte: 
+fonte: null
 ultima_interacao: 2026-05-11
+permalink: main/projects/mongoios/index
 ---
 
 # Mongoios
@@ -41,4 +45,4 @@ _(ainda sem)_
 - 
 
 ## 🔗 Notas relacionadas
-- 
+-
