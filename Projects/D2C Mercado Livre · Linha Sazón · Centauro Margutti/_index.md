@@ -1,11 +1,14 @@
 ---
 asana_gid: 1214621003832298
-tags: [projects, asana]
+tags:
+- projects
+- asana
 type: project
 status: archived
 owner: Rafael Margutti
 task_count: 0
 task_done: 0
+permalink: main/projects/d2-c-mercado-livre-linha-sazon-centauro-margutti/index
 ---
 
 # D2C Mercado Livre · Linha Sazón · Centauro Margutti

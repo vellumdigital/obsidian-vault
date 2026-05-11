@@ -1,11 +1,14 @@
 ---
 asana_gid: 1214608658394878
-tags: [projects, asana]
+tags:
+- projects
+- asana
 type: project
 status: archived
 owner: Rafael Margutti
 task_count: 0
 task_done: 0
+permalink: main/projects/primeiro-projeto-de-rafael/index
 ---
 
 # Primeiro projeto de Rafael
