@@ -2,8 +2,12 @@
 created: 2026-05-10
 tags: [projects, vellum, cliente, fechamento]
 type: project
-status: em-fechamento
+status: proposta
 client: Tchibum
+deal_size_setup: 20000
+deal_size_recorrente: 0
+fonte: indicacao
+ultima_interacao: 2026-05-10
 ---
 
 # Tchibum — Pao de Forma
