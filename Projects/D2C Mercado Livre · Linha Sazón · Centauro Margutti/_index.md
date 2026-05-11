@@ -20,3 +20,13 @@ _(sem tarefas)_
 
 ---
 _Sincronizado em 2026-05-11 09:58 via Asana API_
+
+<!-- asana:start -->
+> 🔗 [Abrir no Asana](https://app.asana.com/0/1214621003832298)
+
+## ✅ Tarefas Asana (0/0)
+
+_(sem tarefas)_
+
+_Sincronizado em 2026-05-11 10:04_
+<!-- asana:end -->
