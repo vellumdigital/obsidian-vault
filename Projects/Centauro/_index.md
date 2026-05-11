@@ -28,7 +28,8 @@ permalink: main/projects/centauro/index
 Distribuidora do Grupo Margutti. Projeto de gestao do sistema de e-commerce com foco em ML e TikTok Shop.
 
 ## Proximas acoes
-_(adicionar conforme avanca)_
+- [ ] Finalizar sistema de cobrança — prazo ~13-14/05
+- [ ] Criar sistema de vendas com agentes de IA — mesma plataforma/CRM/base do sistema de cobrança
 
 ## Reunioes
 _(registrar resumos aqui)_
