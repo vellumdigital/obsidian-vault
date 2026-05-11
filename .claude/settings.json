@@ -22,6 +22,7 @@
       "Bash(grep:*)",
       "Bash(ls /root/agente/email-drafts:*)",
       "Bash(ls:*)",
+      "Bash(proj-list:*)",
       "Bash(rm /root/agente/email-drafts/*)",
       "Edit(/root/agente/email-drafts/**)",
       "Edit(/root/vault/**)",
