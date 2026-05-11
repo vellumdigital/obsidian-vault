@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9dc0af4459e2f062",
+        "id": "2a91ce2a3aa237a8",
         "type": "tabs",
         "children": [
           {
-            "id": "7a59cfba235f2c43",
+            "id": "dd69c014c793c810",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -195,8 +195,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e92808c5df020f9",
+  "active": "dd69c014c793c810",
   "lastOpenFiles": [
+    "Templates/Projeto.md",
     "Sem título.canvas",
     "Projects/Primeiro projeto de Rafael/_index.md",
     "Projects/Primeiro projeto de Rafael",
@@ -216,7 +217,6 @@
     "Inbox/basic-memory-funcionando.md",
     "Sem título 2.canvas",
     "Daily/2026-05-09.md",
-    "Templates/Projeto.md",
     "Projects/Tchibum/_index.md",
     "Resources/Reviews/2026-05-10-weekly.md",
     "Resources/Reviews",
