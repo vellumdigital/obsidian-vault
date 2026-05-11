@@ -4,29 +4,30 @@ tags: [projects, asana]
 type: project
 status: archived
 owner: Rafael Margutti
-team: Meu espaço de trabalho
-modified_at: 2026-05-11T12:55:45.859Z
 task_count: 0
 task_done: 0
 ---
 
 # D2C Mercado Livre · Linha Sazón · Centauro Margutti
 
-> 🔗 [Abrir no Asana](https://app.asana.com/0/1214621003832298)
 
-## ✅ Tarefas (0/0)
 
-_(sem tarefas)_
+## 🚀 Minhas anotacoes
 
----
-_Sincronizado em 2026-05-11 09:58 via Asana API_
+Tarefas que eu adiciono aqui sobem pro Asana automaticamente:
+
+- [ ] Definir estrategia de precificacao para ML ^asana-id::1214700155226518
+- [ ] Pesquisar concorrentes na Linha Sazon ^asana-id::1214699920231697
+- [x] Validar acesso ao ML Centauro ^asana-id::1214700251313781
 
 <!-- asana:start -->
 > 🔗 [Abrir no Asana](https://app.asana.com/0/1214621003832298)
 
-## ✅ Tarefas Asana (0/0)
+## ✅ Tarefas Asana (1/3)
 
-_(sem tarefas)_
+- [x] Validar acesso ao ML Centauro ^asana-id::1214700251313781
+- [ ] Pesquisar concorrentes na Linha Sazon ^asana-id::1214699920231697
+- [ ] Definir estrategia de precificacao para ML ^asana-id::1214700155226518
 
-_Sincronizado em 2026-05-11 10:04_
+_Sincronizado em 2026-05-11 10:05_
 <!-- asana:end -->
