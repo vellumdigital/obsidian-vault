@@ -1,6 +1,10 @@
 ---
 created: 2026-05-10
-tags: [projects, vellum, cliente, ecommerce]
+tags:
+- projects
+- vellum
+- cliente
+- ecommerce
 type: project
 status: fechado
 client: Centauro (Grupo Margutti)
@@ -8,6 +12,7 @@ deal_size_setup: 0
 deal_size_recorrente: 0
 fonte: interno (Grupo Margutti)
 ultima_interacao: 2026-05-10
+permalink: main/projects/centauro/index
 ---
 
 # Centauro — Distribuidora (Grupo Margutti)
