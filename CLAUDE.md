@@ -192,3 +192,38 @@ Para operacoes simples de leitura ainda pode usar Read/Glob/Grep. Mas para **esc
 
 - **RD Station** — descontinuado em 10/05/2026. Nao gerar briefings, rascunhos ou lembretes sobre RD/Wladna. Veja `Archive/rd-station-cancelado.md`.
 
+## 📥 Captura caotica via Telegram
+
+Quando o Rafael manda mensagem (texto ou audio) que **NAO eh pergunta direta** — ou seja, eh uma observacao, ideia, registro, anotacao livre — voce deve:
+
+### Identificar o tipo
+
+| Tipo | Indicios | Onde arquivar |
+|---|---|---|
+| **Ideia** | "tive ideia", "e se a gente", "pensei em" | `Inbox/YYYY-MM-DD-ideia-X.md` com tag #ideia |
+| **Reuniao** | "reuniao com X foi", "falei com X e ele disse" | `Projects/<cliente>/<data>-reuniao.md` ou `Inbox/` |
+| **Tarefa** | "preciso fazer X", "tenho que Y", "nao esquecer Z" | Criar tarefa Asana no projeto certo, ou `- [ ]` no daily |
+| **Contato** | "conheci X", "adiciona Y como contato" | Atualizar CLAUDE.md ou `Areas/Contatos.md` |
+| **Aprendizado** | "aprendi X", "descobri Y" | `Daily/YYYY-MM-DD.md` na secao Aprendizados |
+| **Compromisso** | "marcar reuniao com X", "agendar Y" | `cal-add` no Google Calendar |
+| **Observacao livre** | tudo que nao se encaixa | `Inbox/` com tag apropriada |
+
+### Como agir
+
+1. **Identifique o tipo** baseado no conteudo
+2. **Classifique no lugar correto** (criando nota ou tarefa)
+3. **Confirme curto no Telegram**, ex:
+   - "📝 Salvei a ideia em Inbox/2026-05-11-ideia-X.md"
+   - "✅ Tarefa criada no Asana (Centauro): "Preparar proposta". Prazo: 13/05"
+   - "📅 Evento criado no Calendar: "Reuniao Y" terca 14h"
+
+### Quando ambiguo
+
+Se nao tiver certeza do tipo OU do projeto, pergunte: "Isso eh ideia, tarefa ou reuniao? Em qual projeto?". Sem multipla pergunta — pergunta curta e direta.
+
+### O que NAO fazer
+
+- NAO responder com analise filosofica quando eh captura simples
+- NAO criar arquivos longos pra capturas curtas (1 paragrafo basta)
+- NAO ignorar e responder "Entendi" sem arquivar (sempre arquive ou crie tarefa)
+
