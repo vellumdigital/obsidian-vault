@@ -35,7 +35,8 @@
       "Write(/root/agente/email-drafts/**)",
       "Write(/root/vault/**)",
       "mcp__basic-memory__*",
-      "mcp__claude_ai_Asana__*"
+      "mcp__claude_ai_Asana__*",
+      "mcp__claude_ai_Fireflies__*"
     ],
     "deny": [
       "Bash(rm -rf:*)",
