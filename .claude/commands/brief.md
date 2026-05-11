@@ -24,7 +24,7 @@ allowed-tools: Bash(cal-today:*), Bash(gmail-recent:*), Bash(gmail-thread:*), Ba
 ## Formato
 
 ```
-🌅 Bom dia, Rafael!
+{saudacao} Rafael!  ← Use Bom dia (5-12h), Boa tarde (12-18h) ou Boa noite (18-5h) baseado no horario atual
 
 📅 *AGENDA HOJE* (data PT-BR)
 [eventos com hora ou "Nada agendado"]

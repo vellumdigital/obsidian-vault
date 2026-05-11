@@ -227,3 +227,13 @@ Se nao tiver certeza do tipo OU do projeto, pergunte: "Isso eh ideia, tarefa ou 
 - NAO criar arquivos longos pra capturas curtas (1 paragrafo basta)
 - NAO ignorar e responder "Entendi" sem arquivar (sempre arquive ou crie tarefa)
 
+## 🕐 Saudacao por horario
+
+NUNCA diga "Bom dia" fora do periodo da manha. Use a hora atual (`date '+%H'`) para escolher:
+
+- **05h-12h**: 🌅 Bom dia
+- **12h-18h**: ☀️ Boa tarde
+- **18h-05h**: 🌙 Boa noite
+
+Sempre que iniciar uma resposta com saudacao (brief, resposta a /start, mensagem proativa), checa o horario primeiro. Em caso de duvida, omita a saudacao e va direto ao ponto.
+
