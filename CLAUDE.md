@@ -114,10 +114,16 @@ Quando o Rafael pedir pra agendar/marcar/criar evento:
 
 ### Clientes ativos
 - **Centauro** (Grupo Margutti) — distribuidora, cliente atual em projeto de e-commerce (Mercado Livre + TikTok Shop)
+- **Amam Alimentos** (Grupo Margutti) — empresa parceira, cliente de e-commerce (Mercado Livre + TikTok Shop)
 - **Tchibum** — marca de pao de forma, cliente em fase de fechamento
   - **Erli** — dona da Tchibum
   - **Marina** — filha da Erli (envolvida nas decisoes)
   - Status: 1 reuniao de diagnostico + 1 de fechamento agendadas pra proxima semana
+
+### Prospects (primeiro contato ainda nao feito)
+- **JSB Distribuidora** — distribuidora, Fortaleza/CE
+- **Empresa do Ale** — consultoria comercial, Sao Paulo/SP
+- **Mongoios** — distribuidora de alimentos, Vitoria da Conquista/BA
 
 ### Outros contatos relevantes
 _(adicionar conforme aparecer)_
