@@ -33,6 +33,10 @@ Marca de pao de forma. Cliente em prospeccao avancada da Vellum.
 - [ ] Preparar pauta do diagnostico
 - [ ] Preparar proposta de fechamento
 
+## Dores mapeadas
+- Conciliação de pix
+- Relatórios e dashboards de troca e venda por SKUs
+
 ## Reunioes
 _(registrar resumos aqui)_
 
