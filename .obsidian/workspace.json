@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2a91ce2a3aa237a8",
+        "id": "34dba5e63dd73e47",
         "type": "tabs",
         "children": [
           {
-            "id": "dd69c014c793c810",
+            "id": "6187bc2677da0638",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -195,8 +195,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dd69c014c793c810",
+  "active": "6187bc2677da0638",
   "lastOpenFiles": [
+    "Resources/Reviews.md",
     "Templates/Projeto.md",
     "Sem título.canvas",
     "Projects/Primeiro projeto de Rafael/_index.md",
