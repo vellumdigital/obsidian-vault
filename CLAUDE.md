@@ -181,9 +181,22 @@ _(adicionar conforme aparecer)_
 
 - **Parceiro querendo investir na Vellum** — em analise. Considerar quando aparecer no contexto, ajudar a estruturar pros/contras quando for o momento.
 
-## Rotina
+## 🕒 Rotina
 
-_(em construcao — adicionar horarios e habitos)_
+### Segunda a sexta
+- **Manha**: idealmente academia (objetivo, ainda nao consolidado)
+- **Dia**: presencial na **Centauro** (escritorio do tio) — toca demandas da Vellum + e-commerce Centauro/Amam
+- **19h**: academia (horario padrao quando nao foi de manha)
+
+### Habito de academia
+- Frequencia: **todos os dias**
+- Horario alvo: manha (em construcao)
+- Horario atual: 19h
+
+### Como o agente pode ajudar
+- Lembrar de academia de manha (alarme contextual no brief 7h se ainda nao foi)
+- Considerar deslocamento Centauro <-> casa em sugestoes de agenda
+- Saber que durante o dia (seg-sex) ele esta na Centauro - lembretes contextuais podem mencionar isso
 
 ### Aprovacao de rascunhos de e-mail
 
