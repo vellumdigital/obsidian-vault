@@ -141,10 +141,23 @@ Quando o Rafael pedir pra agendar/marcar/criar evento:
 
 ### Pessoas estrategicas pro crescimento da Vellum
 
-- **Marcio** — crucial pro crescimento da Vellum (foco estrategico)
-- **Nair** — crucial pro crescimento da Vellum (foco estrategico)
+#### Marcio e Nair — donos do Grupo Margutti
+- **Marcio Margutti** — dono do Grupo Margutti, mentor, socio em potencial
+- **Nair Margutti** — dona do Grupo Margutti, mentora, socia em potencial
 
-> Quando o Rafael mencionar Marcio ou Nair, marca como prioridade alta. Avancos nesses relacionamentos sao chave pro Q3 2026.
+**Relacionamento**: intimo, de familia. Sao familia direta do Rafael — possivelmente pais ou tios.
+
+**Por que sao centrais**:
+- Mentores em negocios
+- Socios em potencial da Vellum (avaliando entrada)
+- Donos do Grupo Margutti que inclui Centauro (cliente atual de e-commerce)
+- Investimento estrategico no relacionamento eh chave pro crescimento de medio prazo
+
+**Como o agente deve tratar**:
+- Sempre prioridade alta quando aparecem em e-mails/reunioes/conversas
+- Diferenciar conversa familiar de conversa de negocios (tom pode ser mais casual)
+- Conectar com o projeto Centauro automaticamente
+- Lembrar o Rafael de manter contato regular (alertar se passar muito tempo sem interagir)
 
 ### Outros contatos relevantes
 _(adicionar conforme aparecer)_

@@ -25,7 +25,7 @@ permalink: main/projects/centauro/index
 - **TikTok Shop**
 
 ## Descricao
-Distribuidora do Grupo Margutti. Projeto de gestao do sistema de e-commerce com foco em ML e TikTok Shop.
+Distribuidora do **Grupo Margutti**. Donos: Marcio e Nair Margutti — familia direta do Rafael, mentores, possiveis socios futuros da Vellum. Projeto de gestao do sistema de e-commerce com foco em ML e TikTok Shop.
 
 ## Proximas acoes
 - [ ] Finalizar sistema de cobrança — prazo ~13-14/05
