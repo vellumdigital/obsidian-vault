@@ -139,6 +139,13 @@ Quando o Rafael pedir pra agendar/marcar/criar evento:
 - **Empresa do Ale** — consultoria comercial, Sao Paulo/SP
 - **Mongoios** — distribuidora de alimentos, Vitoria da Conquista/BA
 
+### Pessoas estrategicas pro crescimento da Vellum
+
+- **Marcio** — crucial pro crescimento da Vellum (foco estrategico)
+- **Nair** — crucial pro crescimento da Vellum (foco estrategico)
+
+> Quando o Rafael mencionar Marcio ou Nair, marca como prioridade alta. Avancos nesses relacionamentos sao chave pro Q3 2026.
+
 ### Outros contatos relevantes
 _(adicionar conforme aparecer)_
 
@@ -151,9 +158,15 @@ _(adicionar conforme aparecer)_
 
 > Esses sao norte estrategico de medio-longo prazo. Quando surgir oportunidade/decisao relacionada, considera esses 4 vetores e me lembra de avaliar contra eles.
 
-## Objetivos atuais (3-6 meses)
+## 🎯 Objetivos atuais (ate agosto/2026)
 
-_(em construcao — adicionar quando souber)_
+- **5 clientes fechados** — pipeline de prospeccao + diagnostico + fechamento
+- **R$ 100k em faturamento setup** — agregado dos 5 fechamentos
+- **Focar em Marcio e Nair** — pessoas cruciais pro crescimento da Vellum (relacionamento estrategico)
+
+## 💼 Em avaliacao
+
+- **Parceiro querendo investir na Vellum** — em analise. Considerar quando aparecer no contexto, ajudar a estruturar pros/contras quando for o momento.
 
 ## Rotina
 
