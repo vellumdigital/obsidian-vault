@@ -145,7 +145,7 @@ Quando o Rafael pedir pra agendar/marcar/criar evento:
 - **Marcio Margutti** — dono do Grupo Margutti, mentor, socio em potencial
 - **Nair Margutti** — dona do Grupo Margutti, mentora, socia em potencial
 
-**Relacionamento**: intimo, de familia. Sao familia direta do Rafael — possivelmente pais ou tios.
+**Relacionamento**: intimo, de familia. Sao **tios** do Rafael (familia direta).
 
 **Por que sao centrais**:
 - Mentores em negocios
