@@ -142,9 +142,18 @@ Quando o Rafael pedir pra agendar/marcar/criar evento:
 ### Outros contatos relevantes
 _(adicionar conforme aparecer)_
 
-## Objetivos atuais
+## 🎯 Visao de longo prazo (papos de futuro)
 
-_(em construcao — adicionar 3-6 meses de prazo)_
+1. **Criar sistema pra distribuidora high ticket** — produto/plataforma escalavel pra esse segmento
+2. **Criar sistema pra empresas low ticket** — versao mais acessivel, alta escala
+3. **Investir em startups em potencial** — entrar como investidor anjo em pequenas empresas promissoras
+4. **Expandir pra outros mercados digitais** — dropshipping e outros canais alem de ML/TikTok Shop
+
+> Esses sao norte estrategico de medio-longo prazo. Quando surgir oportunidade/decisao relacionada, considera esses 4 vetores e me lembra de avaliar contra eles.
+
+## Objetivos atuais (3-6 meses)
+
+_(em construcao — adicionar quando souber)_
 
 ## Rotina
 
