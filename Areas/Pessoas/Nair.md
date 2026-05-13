@@ -1,3 +1,9 @@
+---
+title: Nair
+type: note
+permalink: main/areas/pessoas/nair
+---
+
 # Super Agente Pessoal — Nair Margutti
 
 ## Sobre a Nair
