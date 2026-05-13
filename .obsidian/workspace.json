@@ -167,9 +167,19 @@
               "icon": "smart-connections",
               "title": "Connections"
             }
+          },
+          {
+            "id": "c175422824c39681",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -195,8 +205,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e92808c5df020f9",
+  "active": "c175422824c39681",
   "lastOpenFiles": [
+    "Areas/Pessoas/Nair.md",
+    "Areas/Pessoas",
     "Resources/Setup/Template-Agente-Diretor.md",
     "Resources/Setup",
     "Daily/2026-05-13.md",
@@ -218,7 +230,6 @@
     "Projects/Primeiro projeto de Rafael/_index.md",
     "Projects/Primeiro projeto de Rafael",
     "Projects/D2C Mercado Livre · Linha Sazón · Centauro Margutti/_index.md",
-    "Projects/D2C Mercado Livre · Linha Sazón · Centauro Margutti",
     "Daily/2026-05-11.md",
     "Resources/Múltiplas fontes de monetização — insight Alfredo Soares.md",
     "Projects/Octo/Octo — Time de Esports + Marca de Periféricos.md",
