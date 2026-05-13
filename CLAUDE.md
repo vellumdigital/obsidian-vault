@@ -160,7 +160,12 @@ Quando o Rafael pedir pra agendar/marcar/criar evento:
 - Lembrar o Rafael de manter contato regular (alertar se passar muito tempo sem interagir)
 
 ### Outros contatos relevantes
-_(adicionar conforme aparecer)_
+
+#### Ale (Empresa do Ale)
+- **Quem**: dono de empresa, prospect Vellum
+- **Por que critico**: tem **rede gigante de indicacoes** — eh hub de prospeccao, nao so deal isolado
+- **Status**: reuniao prevista apos termino do projeto Centauro
+- **Prioridade**: ALTA (multiplicador potencial pra atingir meta de 5 clientes Q3)
 
 ## 🎯 Visao de longo prazo (papos de futuro)
 

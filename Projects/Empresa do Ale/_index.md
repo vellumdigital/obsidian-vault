@@ -5,7 +5,7 @@ tags:
 - cliente
 - prospeccao
 type: project
-status: prospeccao
+status: qualificado
 client: Empresa do Ale
 contato_principal: null
 deal_size_setup: 0
@@ -23,7 +23,11 @@ permalink: main/projects/empresa-do-ale/index
 - (adicionar)
 
 ## 🎯 Sobre
-(contexto: setor, dor, desafio — agente preenche conforme conversa)
+**Ponto estrategico**: Reuniao prevista apos termino do projeto Centauro.
+
+**Por que critico**: O Ale tem **rede de indicacoes gigante** — pode abrir oportunidade de varios clientes alem da empresa dele propria. Tratar como **hub de prospeccao**, nao so como deal isolado.
+
+**Prioridade**: ALTA (multiplicador potencial).
 
 ## 💰 Deal
 - Setup: (a definir)
