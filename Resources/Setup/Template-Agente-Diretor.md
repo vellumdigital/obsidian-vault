@@ -1,7 +1,12 @@
 ---
 created: 2026-05-12
-tags: [template, setup, vellum, produto]
+tags:
+- template
+- setup
+- vellum
+- produto
 type: template
+permalink: main/resources/setup/template-agente-diretor
 ---
 
 # 🤖 Template: Criar Agente Pessoal pra Diretor
