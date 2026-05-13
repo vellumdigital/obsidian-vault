@@ -197,6 +197,10 @@
   },
   "active": "6187bc2677da0638",
   "lastOpenFiles": [
+    "scripts/revisao-noturna.sh",
+    "scripts/resumo-semanal.sh",
+    "scripts/crontab-agente.txt",
+    "scripts",
     "Inbox/2026-05-11-ideia-eletropostos-vellum.md",
     "Daily/2026-05-12.md",
     "Projects/Mongoios/_index.md",
@@ -228,8 +232,6 @@
     "Daily/2026-05-09.md",
     "Projects/Tchibum/_index.md",
     "Resources/Reviews/2026-05-10-weekly.md",
-    "Resources/Reviews",
-    "Projects/Tchibum",
-    "Projects/Centauro"
+    "Resources/Reviews"
   ]
 }
