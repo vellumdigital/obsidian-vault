@@ -21,5 +21,9 @@ Reunioes futuras com Wladna (CSM RD Station) nao sao mais relevantes:
 - Recusar/cancelar os convites no Calendar (manualmente ou pelo agente)
 - Avisar a Wladna se necessario
 
+## Status pos-cancelamento (atualizado 14/05/2026)
+- RD vai entrar em contato para tratar **multa e estorno**
+- Aguardar contato deles — nao eh necessario agir proativamente por ora
+
 ## Por que arquivar
 Para o agente nao gerar mais briefings, lembretes ou rascunhos relacionados a RD Station ate que o Rafael indique outra coisa.
