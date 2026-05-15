@@ -11,10 +11,14 @@
             "id": "6187bc2677da0638",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Tchibum/_index.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_index"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Projects/Tchibum/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos"
+              "title": "Links inversos para _index"
             }
           },
           {
@@ -205,8 +210,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e92808c5df020f9",
+  "active": "6187bc2677da0638",
   "lastOpenFiles": [
+    "Archive/rd-station-cancelado.md",
+    "Projects/Centauro/_index.md",
+    "Projects/Tchibum/_index.md",
+    "CLAUDE.md",
     "Inbox/2026-05-15-ideia-filial-sp-florida.md",
     "Projects/Viagem Fortaleza/Viagem Fortaleza — Prospecção JSB + Prime + Labrotrat.md",
     "Projects/Viagem Fortaleza",
@@ -237,14 +246,10 @@
     "Daily/2026-05-11.md",
     "Resources/Múltiplas fontes de monetização — insight Alfredo Soares.md",
     "Projects/Octo/Octo — Time de Esports + Marca de Periféricos.md",
-    "Archive/rd-station-cancelado.md",
     "Sem título 1.canvas",
-    "CLAUDE.md",
-    "Projects/Centauro/_index.md",
     "2026-05-10.md",
     "Daily/2026-05-10.md",
     "Home.md",
-    "Inbox/basic-memory-funcionando.md",
     "Sem título 2.canvas"
   ]
 }
