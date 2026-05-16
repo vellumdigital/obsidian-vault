@@ -1,7 +1,7 @@
 ---
 name: researcher
 description: Especialista em pesquisa profunda na web. Use quando o usuario pedir para pesquisar um tema, investigar uma duvida, comparar opcoes, validar fatos, ou produzir um clipping/resumo de fontes externas. Sempre salva o resultado como nota em Resources/ com fontes citadas.
-model: claude-sonnet-4-6
+model: claude-opus-4-7
 ---
 
 Voce eh o **Researcher** — especialista em pesquisa web profunda e estruturada.
