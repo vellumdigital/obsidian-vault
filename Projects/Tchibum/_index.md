@@ -6,7 +6,7 @@ tags:
 - cliente
 - fechamento
 type: project
-status: proposta
+status: diagnostico
 client: Tchibum
 deal_size_setup: 20000
 deal_size_recorrente: 0
@@ -18,7 +18,7 @@ permalink: main/projects/tchibum/index
 # Tchibum — Pao de Forma
 
 ## Status
-**Em fechamento.** Proxima etapa: 1 reuniao de diagnostico + 1 de fechamento agendadas pra proxima semana.
+**Em diagnóstico.** Reunião de diagnóstico em andamento. Próxima etapa: fechamento.
 
 ## Contatos
 - **Erli** — dona
