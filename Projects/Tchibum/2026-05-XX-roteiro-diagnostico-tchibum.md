@@ -75,3 +75,51 @@ tags:
 | 3 | | | | |
 | 4 | | | | |
 | 5 | | | | |
+
+---
+
+## Winthor (TOTVS) — contexto e perguntas específicas
+
+> O Winthor é ERP de distribuição/atacado. O dado quase sempre existe lá dentro — o problema é extração e visibilidade. Use esse conhecimento pra fazer perguntas mais precisas.
+
+### O que o Winthor faz bem
+- Pedidos, faturamento, NF-e
+- Controle de estoque por filial/depósito
+- Gestão de força de vendas (romaneio, visita, rota)
+- Contas a receber e títulos
+- Devolução e bonificação (quando bem configurado)
+
+### Onde o Winthor costuma falhar na prática
+- Relatórios nativos são travados, difíceis de customizar
+- PIX não é nativo — integração depende da versão e do banco, muitas vezes é manual
+- Troca/bonificação no campo: registrada no papel ou no app do vendedor, mas nem sempre bate com o ERP
+- Visibilidade em tempo real é ruim — relatório fecha em D+1 ou D+2
+- Dashboard/BI nativo (Winthor Analytics) existe mas raramente está configurado
+
+### Perguntas certeiras pra fazer na reunião
+
+**Sobre PIX:**
+- Vocês recebem PIX direto na conta ou tem gateway/Pix cobrança?
+- O banco manda extrato automático ou alguém baixa manualmente?
+- Como registram o PIX no Winthor — baixa manual no título ou tem integração automática?
+- Quem faz isso e quanto tempo por dia/semana?
+
+**Sobre trocas e SKUs:**
+- Quando o vendedor faz uma troca no campo, ele registra onde? (app, papel, WhatsApp pro gestor?)
+- Essa troca entra no Winthor como NF de devolução ou vai direto pro estoque sem nota?
+- Vocês conseguem ver hoje, por SKU, quantas caixas foram trocadas no mês?
+- O relatório de troca que vocês consultam — vem do Winthor ou de planilha separada?
+
+**Sobre versão e configuração:**
+- Qual versão do Winthor vocês usam? (P10/P12 é legado; versões mais novas têm API)
+- Vocês têm suporte/parceiro TOTVS ativo ou estão sozinhos com o sistema?
+- Já tentaram extrair algum relatório do Winthor e não conseguiram? O que faltou?
+
+### O que isso revela para a proposta
+| Situação | O que indica |
+|----------|-------------|
+| PIX manual + Winthor sem integração | Automação de conciliação via API bancária + baixa automática de título |
+| Troca registrada no papel/WhatsApp | App de campo ou formulário → integração com Winthor via API/SQL |
+| Relatório vem de planilha paralela | Dashboard BI conectado direto no banco do Winthor (SQL/API) |
+| Winthor desconfigurado/sem suporte | Diagnóstico mais profundo necessário — escopo pode crescer |
+| Winthor versão nova com API | Integração mais barata e rápida — aumenta margem da proposta |
