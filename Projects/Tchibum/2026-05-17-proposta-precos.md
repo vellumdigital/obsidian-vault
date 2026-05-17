@@ -55,7 +55,7 @@ Ordem sugerida na conversa:
 
 ## 6. Pendencias antes de apresentar
 
-- [ ] Confirmar % de desconto definitivos (3% / 5% / 10% ou ajustar?)
+- [ ] **Confirmar custo da plataforma Anderson** — impacta margem da mensalidade R$ 6.500
 - [ ] Validar se Tchibum tem caixa pra opcao 12m (R$ 90k a vista eh peso)
 - [ ] Decidir o que acontece apos o periodo (renova automatico? nova proposta?)
 
