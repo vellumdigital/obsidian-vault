@@ -8,68 +8,56 @@ status: rascunho
 
 # Proposta de Precos — Tchibum
 
-**Premissas:** setup R$ 20k + mensalidade R$ 6.500 (padrao Vellum). Sistema de Cobranca Anderson **incluido** no escopo. Aplicando o insight do Alfredo Soares: 3 opcoes de compromisso, desconto crescente conforme o cliente se trava por mais tempo.
+**Premissas:** setup R$ 20k + mensalidade padrao Vellum R$ 6.500. Sistema de Cobranca Anderson **incluido** no escopo. Modelo: na assinatura do contrato, cliente paga **setup + todas as mensalidades do periodo de uma vez**, recebendo desconto progressivo.
 
-## 1. Setup (fixo, independente da opcao)
+## 1. Setup
 
-- **R$ 20.000** — implementacao + estruturacao do projeto
+**R$ 20.000** — fixo em todas as opcoes, sem desconto.
 
-Sugestao de cobranca:
-- **A vista:** R$ 20k cheio
-- **Parcelado:** 2x R$ 10k OU 3x R$ 7.333
+## 2. Opcoes de contrato
 
-## 2. Mensalidade — 3 opcoes
+Inclui no escopo: gestao Vellum + Sistema de Cobranca Anderson (replicando Centauro).
 
-Inclui no escopo: gestao + Sistema de Cobranca Anderson (replicando o que ja roda na Centauro).
+| Opcao | Mensalidade efetiva | Desconto | Mensalidades | **Pago na assinatura** (setup + mensalidades) |
+|---|---|---|---|---|
+| **Mes-a-mes** | R$ 6.500 | — | mensal | R$ 20.000 (so setup) |
+| **3 meses** | R$ 6.305 | 3% | R$ 18.915 | **R$ 38.915** |
+| **6 meses** | R$ 6.175 | 5% | R$ 37.050 | **R$ 57.050** |
+| **12 meses** ⭐ | R$ 5.850 | 10% | R$ 70.200 | **R$ 90.200** |
 
-| Opcao | Compromisso | Mensalidade | Desconto | Total no periodo | Economia vs mes-a-mes |
-|---|---|---|---|---|---|
-| **Mes-a-mes** | sem fidelidade | R$ 6.500 | — | — | base |
-| **6 meses** | 6 meses | R$ 6.175 | 5% | R$ 37.050 | −R$ 1.950 |
-| **12 meses** | 12 meses | R$ 5.850 | 10% | R$ 70.200 | −R$ 7.800 |
+> ⚠️ Os % sao sugestao inicial. Se quiser ajustar (ex: 12m com 15% pra ser mais agressivo), recalcular.
 
-## 3. Modelos sugeridos pra apresentar
+## 3. Comparativo — quanto o cliente "economiza" em cada opcao
 
-### Opcao A — Conservador (cliente cauteloso)
-- Setup parcelado 3x + mensalidade mes-a-mes
-- **Total ano 1:** R$ 20k + R$ 78k = **R$ 98.000**
+Versus pagar mes-a-mes pelo mesmo periodo:
 
-### Opcao B — Equilibrado (renova a cada 6m) ⭐
-- Setup parcelado 2x + plano 6 meses
-- **Total ano 1:** R$ 20k + R$ 37.05k + R$ 37.05k = **R$ 94.100**
-- Economia vs A: R$ 3.900
+| Opcao | Total mes-a-mes equivalente | Pagamento a vista | Economia |
+|---|---|---|---|
+| 3 meses | R$ 19.500 | R$ 18.915 | −R$ 585 |
+| 6 meses | R$ 39.000 | R$ 37.050 | −R$ 1.950 |
+| 12 meses | R$ 78.000 | R$ 70.200 | −R$ 7.800 |
 
-### Opcao C — Cliente comprometido
-- Setup a vista + plano 12 meses
-- **Total ano 1:** R$ 20k + R$ 70.2k = **R$ 90.200**
-- Economia vs A: R$ 7.800
+## 4. Por que esse modelo
 
-## 4. Clausula de fidelidade (quebra antecipada)
+- **Caixa Vellum** — entra alto valor logo na assinatura
+- **Zero churn no periodo contratado** — cliente ja pagou, nao tem como cancelar e voltar
+- **Cliente sente que ganha** — desconto e simplicidade (paga uma vez e esquece)
+- **Elimina cobranca recorrente** — menos atrito operacional
+- **Posicionamento de estrategista** — quem assina 6/12 meses ja entrou comprometido
 
-Aplicada nas opcoes **6 meses** e **12 meses**:
+## 5. Como apresentar
 
-- **Multa:** 50% do valor das parcelas restantes do periodo contratado
-- **Aviso previo:** 30 dias
-
-**Exemplo:** cliente fecha 12m por R$ 5.850/mes e cancela apos o 4o mes.
-- Restantes: 8 parcelas × R$ 5.850 = R$ 46.800
-- Multa: R$ 23.400
-
-> Posicionamento na conversa: a multa nao eh punicao — eh contrapartida do desconto. Quem nao quer travar usa mes-a-mes sem multa.
-
-## 5. Por que oferecer assim
-
-- **Travamento de LTV** — 6/12 meses garantem receita previsivel
-- **Reduz churn inicial** — primeiros 3-6 meses sao os mais arriscados
-- **Cliente sente que ganha** (desconto), nao que esta preso
-- **Posicionamento de estrategista** — compromisso mais longo reforca relacao continua, nao venda pontual
-- **Cobranca Anderson incluida** — entrega de valor imediata, justifica o ticket
+Ordem sugerida na conversa:
+1. Mostra o **12 meses** primeiro (anchor alto + maior desconto)
+2. Apresenta **6 meses** como meio termo equilibrado
+3. **3 meses** como porta de entrada pra quem quer testar com compromisso
+4. **Mes-a-mes** so se ele empurrar (sem desconto, sem comprometimento)
 
 ## 6. Pendencias antes de apresentar
 
-- [ ] Decidir se mensalidade comeca junto com setup ou so apos go-live
-- [ ] Validar redacao da clausula de fidelidade com referencia juridica
-- [ ] Definir se renovacao apos 6m/12m eh automatica ou requer novo aceite
+- [ ] Confirmar % de desconto definitivos (3% / 5% / 10% ou ajustar?)
+- [ ] Validar se Tchibum tem caixa pra opcao 12m (R$ 90k a vista eh peso)
+- [ ] Decidir o que acontece apos o periodo (renova automatico? nova proposta?)
 
 ## Notas relacionadas
 - [[Projects/Tchibum/_index]]
