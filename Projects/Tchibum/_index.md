@@ -9,7 +9,7 @@ type: project
 status: diagnostico
 client: Tchibum
 deal_size_setup: 20000
-deal_size_recorrente: 0
+deal_size_recorrente: 6500
 fonte: indicacao
 ultima_interacao: 2026-05-15
 permalink: main/projects/tchibum/index

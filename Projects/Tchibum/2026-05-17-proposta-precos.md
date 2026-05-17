@@ -8,7 +8,7 @@ status: rascunho
 
 # Proposta de Precos — Tchibum
 
-**Premissas:** setup R$ 20k (ja definido) + mensalidade a definir. Aplicando o insight do Alfredo Soares: 3 opcoes de compromisso, desconto crescente conforme o cliente se trava por mais tempo.
+**Premissas:** setup R$ 20k + mensalidade R$ 6.500 (padrao Vellum). Sistema de Cobranca Anderson **incluido** no escopo. Aplicando o insight do Alfredo Soares: 3 opcoes de compromisso, desconto crescente conforme o cliente se trava por mais tempo.
 
 ## 1. Setup (fixo, independente da opcao)
 
@@ -18,45 +18,58 @@ Sugestao de cobranca:
 - **A vista:** R$ 20k cheio
 - **Parcelado:** 2x R$ 10k OU 3x R$ 7.333
 
-## 2. Mensalidade — 3 opcoes (referencia R$ 5k/mes)
+## 2. Mensalidade — 3 opcoes
 
-| Opcao | Compromisso | Mensalidade | Desconto | Total no periodo | Diferenca vs mes-a-mes |
+Inclui no escopo: gestao + Sistema de Cobranca Anderson (replicando o que ja roda na Centauro).
+
+| Opcao | Compromisso | Mensalidade | Desconto | Total no periodo | Economia vs mes-a-mes |
 |---|---|---|---|---|---|
-| **Mes-a-mes** | sem fidelidade | R$ 5.000 | — | — | base |
-| **6 meses** | 6 meses | R$ 4.750 | 5% | R$ 28.500 | −R$ 1.500 |
-| **12 meses** | 12 meses | R$ 4.500 | 10% | R$ 54.000 | −R$ 6.000 |
-
-⚠️ **Definir mensalidade base** — usei R$ 5k como referencia (alinhada com a faixa do cobranca R$ 6k). Se a mensalidade real for outra, recalcular proporcionalmente.
+| **Mes-a-mes** | sem fidelidade | R$ 6.500 | — | — | base |
+| **6 meses** | 6 meses | R$ 6.175 | 5% | R$ 37.050 | −R$ 1.950 |
+| **12 meses** | 12 meses | R$ 5.850 | 10% | R$ 70.200 | −R$ 7.800 |
 
 ## 3. Modelos sugeridos pra apresentar
 
 ### Opcao A — Conservador (cliente cauteloso)
 - Setup parcelado 3x + mensalidade mes-a-mes
-- **Total ano 1:** R$ 20k + R$ 60k = **R$ 80k**
+- **Total ano 1:** R$ 20k + R$ 78k = **R$ 98.000**
 
-### Opcao B — Equilibrado (mais comum) ⭐
+### Opcao B — Equilibrado (renova a cada 6m) ⭐
 - Setup parcelado 2x + plano 6 meses
-- **Total ano 1:** R$ 20k + R$ 28.5k (6m) + R$ 28.5k (renova 6m) = **R$ 77k**
-- Economia vs A: R$ 3k
+- **Total ano 1:** R$ 20k + R$ 37.05k + R$ 37.05k = **R$ 94.100**
+- Economia vs A: R$ 3.900
 
 ### Opcao C — Cliente comprometido
 - Setup a vista + plano 12 meses
-- **Total ano 1:** R$ 20k + R$ 54k = **R$ 74k**
-- Economia vs A: R$ 6k
+- **Total ano 1:** R$ 20k + R$ 70.2k = **R$ 90.200**
+- Economia vs A: R$ 7.800
 
-## 4. Por que oferecer assim
+## 4. Clausula de fidelidade (quebra antecipada)
+
+Aplicada nas opcoes **6 meses** e **12 meses**:
+
+- **Multa:** 50% do valor das parcelas restantes do periodo contratado
+- **Aviso previo:** 30 dias
+
+**Exemplo:** cliente fecha 12m por R$ 5.850/mes e cancela apos o 4o mes.
+- Restantes: 8 parcelas × R$ 5.850 = R$ 46.800
+- Multa: R$ 23.400
+
+> Posicionamento na conversa: a multa nao eh punicao — eh contrapartida do desconto. Quem nao quer travar usa mes-a-mes sem multa.
+
+## 5. Por que oferecer assim
 
 - **Travamento de LTV** — 6/12 meses garantem receita previsivel
 - **Reduz churn inicial** — primeiros 3-6 meses sao os mais arriscados
 - **Cliente sente que ganha** (desconto), nao que esta preso
-- **Posicionamento de estrategista** — compromisso mais longo reforca relacao, nao venda pontual
+- **Posicionamento de estrategista** — compromisso mais longo reforca relacao continua, nao venda pontual
+- **Cobranca Anderson incluida** — entrega de valor imediata, justifica o ticket
 
-## 5. Pendencias antes de apresentar
+## 6. Pendencias antes de apresentar
 
-- [ ] Confirmar mensalidade base (R$ 5k eh chute — alinhar com escopo real)
-- [ ] Decidir se mensalidade entra so apos go-live ou junto com setup
-- [ ] Validar se inclui ou nao Sistema de Cobranca Anderson (replicar Centauro)
-- [ ] Definir clausula de quebra de fidelidade (multa? proporcional?)
+- [ ] Decidir se mensalidade comeca junto com setup ou so apos go-live
+- [ ] Validar redacao da clausula de fidelidade com referencia juridica
+- [ ] Definir se renovacao apos 6m/12m eh automatica ou requer novo aceite
 
 ## Notas relacionadas
 - [[Projects/Tchibum/_index]]
