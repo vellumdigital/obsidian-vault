@@ -16,9 +16,9 @@ permalink: main/projects/primeiro-projeto-de-rafael/index
 <!-- asana:start -->
 > 🔗 [Abrir no Asana](https://app.asana.com/0/1214608658394878)
 
-## ✅ Tarefas Asana (0/0)
+## ✅ Tarefas Asana (0/1)
 
-_(sem tarefas)_
+- [ ] Conversar com Nair e Marcio - fatura/multa RD Station 📅 2026-05-25 ^asana-id::1215075420074921
 
-_Sincronizado em 2026-05-22 22:00_
+_Sincronizado em 2026-05-22 22:30_
 <!-- asana:end -->
