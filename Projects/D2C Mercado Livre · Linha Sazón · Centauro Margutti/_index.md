@@ -32,5 +32,5 @@ Tarefas que eu adiciono aqui sobem pro Asana automaticamente:
 - [ ] Pesquisar concorrentes na Linha Sazon ^asana-id::1214699920231697
 - [ ] Definir estrategia de precificacao para ML ^asana-id::1214700155226518
 
-_Sincronizado em 2026-07-26 00:00_
+_Sincronizado em 2026-07-26 00:30_
 <!-- asana:end -->
